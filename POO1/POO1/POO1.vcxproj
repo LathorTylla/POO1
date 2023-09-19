@@ -129,10 +129,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Aldeano.cpp" />
+    <ClCompile Include="src\Command.cpp" />
     <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\Person.cpp" />
     <ClCompile Include="src\Rectangulo.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\Aldeano.h" />
+    <ClInclude Include="include\Command.h" />
+    <ClInclude Include="include\Commons.h" />
+    <ClInclude Include="include\Header.h" />
+    <ClInclude Include="include\Person.h" />
     <ClInclude Include="include\Rectangulo.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
